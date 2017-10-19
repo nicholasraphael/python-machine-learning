@@ -15,7 +15,7 @@ from sklearn.svm import SVC
 
 #load the dataset
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
-#set up data frame using pands.read_csv
+#set up data frame using pandas.read_csv
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names=names)
 
